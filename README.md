@@ -68,7 +68,7 @@ Start the server
 ```
 
 
-## Running Tests (Coming soon!)
+## Running Tests
 
 To run tests, run the following command
 
