@@ -2,7 +2,7 @@ import {
 	loginWithEmailPassword,
 	registerUserWithEmailPassword,
 	singInWithGoogle,
-	logoutFirabase,
+	logoutFirebase,
 } from '../../firebase';
 
 import {
@@ -117,7 +117,7 @@ export const startLoginWithEmailPassword = ({
 
 export const startLogout = () => {
 	return async (dispatch: AppDispatch) => {
-		await logoutFirabase();
+		await logoutFirebase();
 
 		dispatch(clearNotesLogout());
 
